@@ -27,6 +27,10 @@ services:
     volumes:
       - ./index.php:/var/www/html/index.php
       - ./style.css:/var/www/html/style.css
+      - ./drawer.php:/var/www/html/drawer.php
+      - ./sort.php:/var/www/html/sort.php
+      - ./insertion_sort.php:/var/www/html/insertion_sort.php
+      - ./server_info.php:/var/www/html/server_info.php
       
 volumes:
   mysql_data:
